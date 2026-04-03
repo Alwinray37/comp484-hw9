@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    background-color: rgba(245, 222, 179, 0.747);
+}
+.wrapper {
+    width: 500px;
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0;
+}
+
+input, button{
+    padding: 1rem;
+    font-weight: normal;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: lightgray 1px solid;
+}
+
+button:hover{
+    background-color: lightblue;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
